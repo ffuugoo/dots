@@ -12,6 +12,8 @@
 
   "buffer_font_family": "Monaco",
   "buffer_font_size": 14,
+  "agent_buffer_font_size": 13,
+  "git_commit_buffer_font_size": 13,
 
   "buffer_line_height": {
     "custom": 1.4,
@@ -85,7 +87,7 @@
           "features": [],
           "noDefaultFeatures": false,
 
-          "cfgs": [],
+          "cfgs": ["debug_assertions"],
           "target": null,
 
           "extraArgs": [],
@@ -381,7 +383,7 @@
     "use_modifier_to_send": true,
     "enable_feedback": false,
 
-    "default_profile": "minimal",
+    "default_profile": "write",
 
     "tool_permissions": {
       "default": "confirm",
@@ -390,7 +392,7 @@
 
     "default_model": {
       "provider": "openai-subscribed",
-      "model": "gpt-5.5",
+      "model": "gpt-6.1-sol",
       "effort": "high",
       "enable_thinking": true,
     },
@@ -399,22 +401,20 @@
   },
 
   "agent_servers": {
-    "claude-acp": {
-      "type": "registry",
-
-      "default_config_options": {
-        "model": "opus[1m]",
-        "mode": "acceptEdits",
-        "effort": "high",
-      }
-    },
-
     "codex-acp": {
       "type": "registry",
 
       "default_config_options": {
-        "mode": "agent",
-        "reasoning_effort": "high",
+        "mode": "workspace-write",
+        "model": "gpt-6.1-sol"
+      }
+    },
+
+    "claude-acp": {
+      "type": "registry",
+
+      "default_config_options": {
+        "mode": "acceptEdits"
       }
     }
   },
