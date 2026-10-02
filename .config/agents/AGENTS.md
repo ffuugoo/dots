@@ -48,6 +48,9 @@ State a mechanism as steps in the order they happen:
 "reads one value, writes it last, keeps every step in between safe to re-run".
 If the steps stack up, make them a short list.
 
+Concise writing must preserve the reasoning that makes a conclusion understandable.
+Don't remove a premise merely because the resulting sentence is shorter.
+
 Prefer one concrete consequence over a general principle.
 "Chosen so the assertions fail if restart hardcodes `sync: true`"
 instead of "chosen so the assertions discriminate".
@@ -70,12 +73,21 @@ Don't introduce a synonym for something it already names ("actions" doesn't beco
 and don't use terms it never defines ("the gating action").
 Define at first use, or describe the thing in words the document already has.
 
-In technical text, lean telegraphic: drop articles that carry no information —
-"the consensus thread dies" reads fine as "consensus thread dies".
-Sentence-initial articles and articles before an adjective almost always drop cleanly.
-Keep an article that carries information:
-something new ("introduce a bug"), a specific one ("the same entry", "the last action").
-Keep an article if a sentence reads wrong without it.
+When revising user-provided wording, preserve its structure and vocabulary unless either
+causes the problem being fixed. Make the smallest change that resolves the issue.
+
+When reviewing wording, distinguish grammar, idiomatic phrasing and project terminology.
+A sentence can be grammatically correct but still be imprecise
+or inconsistent with established vocabulary.
+
+Don't replace an established term with a more specific-sounding term inferred from
+implementation details. Added specificity helps only when the distinction matters.
+
+Prefer concise technical prose, but don't remove articles mechanically.
+Omit an article only when the sentence remains natural and unambiguous.
+Keep one when it identifies something new ("introduce a bug"),
+something specific ("the same entry", "the last action"),
+or when the sentence reads wrong without it.
 
 ### No Out-of-Repo Context
 
