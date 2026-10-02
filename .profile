@@ -1,4 +1,4 @@
-declare LOCAL=~/.local/bin:~/.cargo/bin:~/Library/Python/3.14/bin
+declare LOCAL=~/.local/bin:~/.cargo/bin:~/Library/Python/3.14/bin:~/.local/npm/bin
 
 declare ORBSTACK=~/.orbstack/bin
 
