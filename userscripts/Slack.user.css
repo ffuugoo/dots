@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name        Slack
+
+@version     0.1
+@updateURL   https://github.com/ffuugoo/dots/raw/refs/heads/main/userscripts/Slack.user.css
+
+@match       https://app.slack.com/*
+==/UserStyle== */
+
+div:has(> div > div > div > button#slackbot) {
+    display: none;
+}
