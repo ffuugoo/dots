@@ -76,6 +76,9 @@ Where to find documentation for specific tools, languages, and services.
 - [Community Docs](https://github.com/sublimetext-io/docs.sublimetext.io/tree/master/docs)
 - [Community Docs Index](https://github.com/sublimetext-io/docs.sublimetext.io/blob/master/docs/.vitepress/config.ts)
 
+- [Sublime LSP Docs](https://github.com/sublimelsp/LSP/tree/main/docs)
+- [Sublime LSP Docs Index](https://github.com/sublimelsp/LSP/blob/main/docs/mkdocs.yml)
+
 ### Sublime Merge
 
 - [Docs](https://www.sublimemerge.com/docs/)
