@@ -1,0 +1,47 @@
+[desktop]
+confirm-before-close = "never"
+default-workspace-full-view = true
+sidebar-show-projects-in-recents = false
+
+conversationDetailMode = "STEPS_PROSE"
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "persistent"]
+followUpQueueMode = "steer"
+
+avatar-overlay-pet-visible = false
+ambient-suggestions-enabled = false
+realtimeVoiceScreenContextEnabled = false
+
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = "/Users/ffuugoo/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."code-review@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[apps.connector_20205bf7d4e99a89d7154bb849718324]
+enabled = false
+
+[apps.connector_openai_chatgpt_pets]
+enabled = false
+
+[apps.connector_openai_hotline]
+enabled = false
+
+[apps.connector_openai_safety_settings]
+enabled = false

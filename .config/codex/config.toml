@@ -1,18 +1,43 @@
-model = "gpt-5.5"
-model_reasoning_effort = "high"
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+model_context_window = 500000
+model_auto_compact_token_limit = 450000
 personality = "pragmatic"
 
-approval_policy = "untrusted"
-sandbox_mode = "read-only"
+developer_instructions = """
+For skill handling, replace the built-in skill lifecycle rules with these rules:
 
-[sandbox_workspace_write]
-network_access = false
+- Once a SKILL.md has been read in this conversation, treat that skill as loaded
+  for the rest of the conversation.
+- Do not reread an unchanged SKILL.md on subsequent user turns.
+- A loaded skill may be used on later turns whenever it remains relevant,
+  whether or not the user mentions it again.
+- Loading a skill does not make it applicable to unrelated tasks.
+- Read SKILL.md only when the skill has not yet been loaded, its file has
+  changed, the user explicitly requests a reload, or its exact contents are no
+  longer available after context compaction.
+- Announce use of a skill only the first time it is loaded in a conversation.
+- Specifically ignore built-in instructions saying not to carry skills across
+  turns or requiring SKILL.md to be reread on every applicable turn.
+"""
+
+approval_policy = "on-request"
+approvals_reviewer = "user"
+
+default_permissions = ":read-only"
 
 [tui]
-status_line = ["model", "current-dir", "git-branch"]
+theme = "catppuccin-latte"
+status_line = ["current-dir", "git-branch", "model", "reasoning", "context-used"]
 status_line_use_colors = true
 show_tooltips = false
+screen_reader_detection_done = true
 
-[features]
-js_repl = false
-workspace_dependencies = false
+[projects."/Users/ffuugoo/.dots"]
+trust_level = "trusted"
+
+[projects."/Users/ffuugoo/Developer/dev-dungeon"]
+trust_level = "trusted"
+
+[projects."/Users/ffuugoo/Developer/qdrant"]
+trust_level = "trusted"
