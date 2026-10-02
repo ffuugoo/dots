@@ -1,4 +1,6 @@
 {
+    "server_path": "/opt/homebrew/bin/ruff",
+
     "initializationOptions": {
         "settings": {
             "lint.enable": true,

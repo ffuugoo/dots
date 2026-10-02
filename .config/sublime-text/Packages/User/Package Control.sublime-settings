@@ -7,16 +7,31 @@
     "installed_packages": [
         "Package Control",
 
+        // "OverrideAudit",
+
         "A File Icon",
         "Alignment",
         "BracketHighlighter",
         "GitHubTools",
         "MoveTab",
 
-        // "OverrideAudit",
 
+        "LSP",
+        "LSP-file-watcher-rust",
 
-        "Rust Enhanced",
+        "LSP-rust-analyzer",
+
+        "LSP-basedpyright",
+        "LSP-ruff",
+
+        "LSP-bash",
+
+        "LSP-dockerfile",
+        "LSP-json",
+        "LSP-yaml",
+
+        "Terminus",
+
 
         "Dockerfile Syntax Highlighting",
         "Protobuf Syntax Hightlighting",
@@ -24,19 +39,5 @@
 
         "Autotools",
         "CMake",
-
-
-        // "LSP",
-
-        // "LSP-rust-analyzer",
-
-        // "LSP-basedpyright",
-        // "LSP-ruff",
-
-        // "LSP-bash",
-
-        // "LSP-dockerfile",
-        // "LSP-json",
-        // "LSP-yaml",
-    ]
+    ],
 }

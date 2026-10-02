@@ -1,4 +1,6 @@
 {
+    "server_path": "/opt/homebrew/bin/basedpyright",
+
     "settings": {
         "basedpyright.analysis.typeCheckingMode": "basic",
 

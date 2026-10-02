@@ -11,6 +11,6 @@
 
     "translate_tabs_to_spaces": true,
 
-    "editor_path": "/opt/homebrew/bin/zed",
+    // "editor_path": "/opt/homebrew/bin/subl",
     "git_binary": "system",
 }

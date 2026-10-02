@@ -1,4 +1,6 @@
 {
+    "server_path": "/opt/homebrew/bin/bash-language-server",
+
     "settings": {
         "bashIde.highlightParsingErrors": false,
         "bashIde.includeAllWorkspaceSymbols": false,
