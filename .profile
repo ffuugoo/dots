@@ -4,7 +4,7 @@ declare ORBSTACK=~/.orbstack/bin
 
 declare BREW=/opt/homebrew
 declare RUST=$BREW/opt/rustup/bin
-declare PYTHON=$BREW/opt/python/libexec/bin
+declare PYTHON=$BREW/opt/python/bin:$BREW/opt/python/libexec/bin
 declare MAKE=$BREW/opt/make/libexec/gnubin
 
 export PATH=$LOCAL:$ORBSTACK:$RUST:$PYTHON:$MAKE:$PATH
