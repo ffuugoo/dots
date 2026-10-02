@@ -1,15 +1,9 @@
 {
-  "tui": "fullscreen",
-
   "model": "opus[1m]",
   "effortLevel": "high",
 
-  "switchModelsOnFlag": false,
-
   "disableClaudeAiConnectors": true,
-
-  "awaySummaryEnabled": false,
-  "spinnerTipsEnabled": false,
+  "switchModelsOnFlag": false,
 
   "permissions": {
     "defaultMode": "dontAsk",
@@ -42,6 +36,15 @@
       "allowUnixSockets": []
     }
   },
+
+  "tui": "fullscreen",
+  "theme": "auto",
+
+  "agentPushNotifEnabled": true,
+  "inputNeededNotifEnabled": true,
+
+  "awaySummaryEnabled": false,
+  "spinnerTipsEnabled": false,
 
   "statusLine": {
     "type": "command",
