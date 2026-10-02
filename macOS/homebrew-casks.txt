@@ -22,17 +22,14 @@ zed
 orbstack
 syntax-highlight
 
+codex
+claude-code
+
 hex-fiend
 transnomino
 
 macpacker
 rar
-
-chatgpt
-codex-app
-codex
-claude
-claude-code
 
 crossover
 gog-galaxy
@@ -40,6 +37,8 @@ steam
 
 autofirma
 
+android-platform-tools
 ankerwork
+display-pilot
 
 amneziavpn

@@ -9,9 +9,6 @@ node
 
 rustup
 
-protobuf
-maturin
-
 cargo-binstall
 cargo-expand
 cargo-nextest
@@ -21,12 +18,23 @@ cargo-sweep
 messense/macos-cross-toolchains/aarch64-unknown-linux-gnu
 # mingw-w64
 
+protobuf
+maturin
+
 autoconf
 automake
 cmake
 make
 ninja
 pkgconf
+
+sccache
+
+basedpyright
+ruff
+bash-language-server
+dockerfile-language-server
+yaml-language-server
 
 gh
 romkatv/gitstatus/gitstatus
@@ -37,5 +45,8 @@ pandoc
 ripgrep
 sevenzip
 
+atomicparsley
+eye-d3
+exiftool
 kepubify
 lgogdownloader
