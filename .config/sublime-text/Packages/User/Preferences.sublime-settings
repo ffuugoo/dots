@@ -3,6 +3,8 @@
     "light_theme": "Default.sublime-theme",
     "dark_theme": "Default Dark.sublime-theme",
 
+    "file_icon_theme": "A File Icon.sublime-file-icons",
+
     "color_scheme": "auto",
     "light_color_scheme": "Breakers.sublime-color-scheme",
     "dark_color_scheme": "Mariana.sublime-color-scheme",
