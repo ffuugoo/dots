@@ -33,6 +33,8 @@
         "Terminus",
 
 
+        "MarkdownEditing",
+
         "Dockerfile Syntax Highlighting",
         "Protobuf Syntax Hightlighting",
         "TOML",

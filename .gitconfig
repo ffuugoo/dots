@@ -10,7 +10,7 @@
 
 [core]
 	excludesFile = ~/.gitignore
-	editor = zed --wait
+	editor = subl --wait
 	pager = less -FR -+X
 
 [diff]
